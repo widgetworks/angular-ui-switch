@@ -5,6 +5,7 @@ angular.module('uiSwitch', [])
 function($parse){
   return {
     restrict: 'AE'
+  , scope: true
   , replace: true
   , transclude: true
   , compile: function(tElement, tAttrs){
